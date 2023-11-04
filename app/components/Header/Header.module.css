@@ -1,0 +1,59 @@
+.Header {
+   padding: 18px 0px 19px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.HeaderBlock {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.HeaderMenu {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.HeaderNav {
+   margin-right: 81px;
+}
+
+.NavItems {
+   display: flex;
+   align-items: center;
+}
+
+.NavItem:not(:last-child) {
+   margin-right: 60px;
+}
+
+.NavLink {
+   color: inherit;
+   font-size: 0.8rem;
+   font-weight: 500;
+   transition: all 0.3s linear 0s;
+}
+
+.NavLink:hover {
+   text-shadow: 0 0 .4px #333, 0 0 .4px #333;
+   transition: all 0.3s linear 0s;
+}
+
+.SigninButton {
+   width: 122px;
+   min-height: 43px;
+   border-radius: 48px;
+   background: #EE6C4D;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #FFF;
+   font-size: 0.9rem;
+   font-weight: 700;
+   transition: all 0.3s linear 0s;
+}
+
+.SigninButton:hover {
+   transition: all 0.3s linear 0s;
+   filter: drop-shadow(0px 2.075442314147949px 4.538300514221191px rgba(238, 108, 77, 0.07)) drop-shadow(0px 4.987576484680176px 10.906167030334473px rgba(238, 108, 77, 0.10)) drop-shadow(0px 9.39116382598877px 20.53534507751465px rgba(238, 108, 77, 0.12)) drop-shadow(0px 16.75223159790039px 36.63154602050781px rgba(238, 108, 77, 0.14)) drop-shadow(0px 31.333206176757812px 68.5152816772461px rgba(238, 108, 77, 0.17)) drop-shadow(0px 75px 164px rgba(238, 108, 77, 0.24));
+}

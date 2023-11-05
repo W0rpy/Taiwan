@@ -1,7 +1,10 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 
 import Container from "@/app/components/Container/Container";
+import addGtagEvent from "@/app/helper/addEvents";
 
 import logo from '@/public/images/logo.svg'
 
@@ -30,7 +33,7 @@ return(
                </ul>
             </nav>
             <div className={styles.HeaderSignin}>
-               <button className={styles.SigninButton}>Sign In</button>
+               <button className={styles.SigninButton} onClick={()=>addGtagEvent()}>Sign In</button>
             </div>
             <div className={styles.HeaderBurger}></div>
          </div>

@@ -1,0 +1,68 @@
+.TopBlock {
+   padding: 20px 0px 0px 0px;
+   display: grid;
+   grid-template-columns: 479px 1fr;
+}
+
+.TopContent {
+   padding: 154px 0px 0px 0px;
+}
+
+.TopTitle {
+   color: #EE6C4D;
+   font-size: 2.5rem;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.TopSubtitle {
+  margin-bottom: 24px;
+  max-width: 360px;
+  line-height: normal;
+}
+
+.TopButton {
+   width: 164px;
+   min-height: 43px;
+   border-radius: 48px;
+   background: #EE6C4D;
+   color: #FFF;
+   font-size: 0.9rem;
+   font-weight: 700;
+   transition: all 0.3s linear 0s;
+}
+
+.TopButton:hover {
+   filter: drop-shadow(0px 2.075442314147949px 4.538300514221191px rgba(238, 108, 77, 0.07)) drop-shadow(0px 4.987576484680176px 10.906167030334473px rgba(238, 108, 77, 0.10)) drop-shadow(0px 9.39116382598877px 20.53534507751465px rgba(238, 108, 77, 0.12)) drop-shadow(0px 16.75223159790039px 36.63154602050781px rgba(238, 108, 77, 0.14)) drop-shadow(0px 31.333206176757812px 68.5152816772461px rgba(238, 108, 77, 0.17)) drop-shadow(0px 75px 164px rgba(238, 108, 77, 0.24));
+   transition: all 0.3s linear 0s;
+}
+
+.TopImages {
+   position: relative;
+}
+
+.Monument {
+   position: absolute;
+   top: 148px;
+   left: 120px;
+   z-index: 2;
+}
+
+.Bridge {
+   position: absolute;
+   top: 394px;
+   left: 21px;
+   z-index: 2;
+}
+
+.Tree {
+   position: absolute;
+   top: 339px;
+   left: 0px;
+}
+
+.Tower {
+   position: absolute;
+   top: 0px;
+   left: 471px;
+}
